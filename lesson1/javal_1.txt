@@ -1,0 +1,10 @@
+1. story
+2. story points
+3. story anchor
+4. sprint
+5. scrum, scrum master and scrum dev team
+6. sprint backlog
+7. Test-Driven development
+8. Mocking
+
+
