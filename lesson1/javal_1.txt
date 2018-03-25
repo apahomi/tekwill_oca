@@ -10,4 +10,36 @@
 
 
 
+Andrey@PREDATOR MINGW64 ~ (master)
+$ cd c:/projects/tekwill/src/tekwill_oca
+
+Andrey@PREDATOR MINGW64 /c/projects/tekwill/src/tekwill_oca (master)
+$ dir
+lesson1
+
+Andrey@PREDATOR MINGW64 /c/projects/tekwill/src/tekwill_oca (master)
+$ git add *
+
+Andrey@PREDATOR MINGW64 /c/projects/tekwill/src/tekwill_oca (master)
+$ git commit -m "javal_1.txt"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Andrey@PREDATOR MINGW64 /c/projects/tekwill/src/tekwill_oca (master)
+$ git push origin master
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 325 bytes | 325.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/apahomi/tekwill_oca.git
+   2b252f4..0711554  master -> master
+
+
+
+
 
