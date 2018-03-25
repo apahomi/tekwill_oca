@@ -6,5 +6,8 @@
 6. sprint backlog
 7. Test-Driven development
 8. Mocking
+9. Agile
+
+
 
 
