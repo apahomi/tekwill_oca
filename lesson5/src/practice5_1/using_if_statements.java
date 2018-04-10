@@ -7,14 +7,17 @@ public class using_if_statements {
 		String itemDesc = "SWORD";
 		String message;
 		
+		int quantity = 1;
 		double price = 35.35;
 		double tax = 2.50;
-		int quantity = 1;
 		double total;
+		
 		message = custName+" wants to purchase "+quantity +" "+itemDesc;
 		total = quantity * price * tax;
 
-		if (quantity > 1) {message = message + 's';
+		if (quantity > 1)
+		{
+			message = message + 's';
 		}
            boolean out_of_stock = false;
   

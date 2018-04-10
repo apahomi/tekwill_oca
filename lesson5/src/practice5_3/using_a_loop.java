@@ -3,7 +3,7 @@ package practice5_3;
 public class using_a_loop {
 
 	public static void main(String[] args) {
-		String custName = "Mary Smith";
+		String custName = "Mark";
 	     String message;
 	     
 	     String[] items = new String[4];
