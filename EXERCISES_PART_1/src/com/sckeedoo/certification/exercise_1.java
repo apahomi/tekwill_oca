@@ -1,4 +1,4 @@
-package Main;
+package com.sckeedoo.certification;
 
 public class exercise_1 {
 	static class Animal {

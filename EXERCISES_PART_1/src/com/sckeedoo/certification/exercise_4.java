@@ -1,25 +1,22 @@
-package Main;
+package com.sckeedoo.certification;
 
-import java.util.Random;
+public class exercise_4 {
+	
+	static class Player {
+		String name;
+		int age;
+		int points;
+	}
 
-public class exercise_5 {
+	
+	
+	public static void main(String[] args) {
+	        
+		Player[] players = new Player[5];
 
-    static class Player {
-        String name;
-        int age;
-        int points;
-        int incr;
-      
-       
-    }
-
-
-    public static void main(String[] args) {
-        Player[] players = new Player[5];
-
-        // Adding Diana
+        // Adding Luke
         players[0] = new Player();
-        players[0].name = "Diana";
+        players[0].name = "Luke";
         players[0].age = 17;
         players[0].points = 200;
 
@@ -48,19 +45,15 @@ public class exercise_5 {
         players[4].points = 270;
 
         /**
-         * Increment the player's score by a random number between 10 and 20
+         * Make all the players say hello and their name
          */
-        int rangeValues;
-        int sum;
+
+        for(Player player : players) {
         
-        Random incr = new Random();
-        rangeValues = incr.nextInt(10) + 11;
-        
-        for(Player player: players) {
-        
-        	sum = player.points + rangeValues;	
+        	System.out.println("Hi guys!!! My name is " + player.name + '.');
         	
-        	System.out.println(player.name + "'s points after incrementing is equal with " + sum + '.');
         }
-    }
+
+	}
+
 }
